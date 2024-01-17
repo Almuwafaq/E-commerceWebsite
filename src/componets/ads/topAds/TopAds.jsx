@@ -1,12 +1,9 @@
 
 
-const TopAds = ({label,type,...props}) => {
+const TopAds = () => {
   return (
-    <div className="">
-      <form action="">
-        <label htmlFor="">{label}</label>
-        <input type={type} {...props} />
-      </form>
+    <div className="bg-black min-w-[100vw] py-[5px] text-white text-center">
+      <p className="font-[poppins] text-[14px]">Summer Sale For All Swim Suits And Free Express Delivery - OFF 50%!</p>
     </div>
   )
 }

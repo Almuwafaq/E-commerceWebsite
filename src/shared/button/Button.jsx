@@ -4,7 +4,7 @@
 const Button = ({text}) => {
   return (
     <div>
-      <button>{text}</button>
+      <button className="bg-red">{text}</button>
     </div>
   )
 }

@@ -6,11 +6,12 @@ import {
 } from "react-router-dom";
 import "./index.css";
 import Form from "./componets/sideBar/Form";
+import TopAds from "./componets/ads/topAds/TopAds";
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <Form/>
+    element: <TopAds/>
   },
 ]);
 

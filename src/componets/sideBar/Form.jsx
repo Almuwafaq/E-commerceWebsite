@@ -30,14 +30,14 @@ const Form = () => {
         },
     ]
 
-    return(
-        <Link to="/">
-        {
-            datas.map((data,i)=><TopAds key={i} {...data}/>)
-        }
-        <Button text="submit"/>
-        </Link>
-    )
+    // return(
+    //     <Link to="/">
+    //     {
+    //         datas.map((data,i)=><TopAds key={i} {...data}/>)
+    //     }
+    //     <Button text="submit"/>
+    //     </Link>
+    // )
 }
 export default Form
 
