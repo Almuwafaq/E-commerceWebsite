@@ -1,10 +1,12 @@
-
+import Container from "../componets/Container"
 
 const Cart = () => {
   return (
-    <div>
-      
-    </div>
+    <>
+    <Container>
+       
+    </Container>
+    </>
   )
 }
 
